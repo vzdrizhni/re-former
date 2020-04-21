@@ -27,6 +27,12 @@
     <input name="commit" type="submit" value="Create" />
 <% end %>-->
 
+<ul>
+    <% @user.errors.full_messages.each do |error| %>
+      <li><%= error %><li>
+    <% end %>
+</ul>
+
 <%= form_for(@user) do |f| %>
     <p>
         <%= f.label :username %>
