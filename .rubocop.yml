@@ -49,10 +49,6 @@ Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
 
-Layout/SpaceAroundMethodCallOperator:
-  Enabled: false
-Style/ExponentialNotation:
-  Enabled: false
 Lint/RaiseException:
   Enabled: false
 Lint/StructNewOverride:
