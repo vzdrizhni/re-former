@@ -45,6 +45,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+  * [Usage](#usage)
 * [Contributors](#contributors)
 * [Acknowledgements](#acknowledgements)
 * [License](#license)
@@ -54,8 +55,16 @@
 
 This project is about learning the multiple ways to build a form in rails that can send parameters to a controller so that it can build an instance of a model with those parameters.
 
+### Built With
+This project was built using these technologies.
+* Ruby & Ruby on Rails
+* SQLite
+* Rubocop
+* Stickler
+* Atom :atom:
+
 <!-- INSTALLATION -->
-## Installation
+## Usage
 
 To have this app on your pc, you need to:
 * have Ruby & Ruby on Rails installed in your computer
@@ -74,15 +83,19 @@ To have this app on your pc, you need to:
   - ```$ rails db:migrate```
 * and finally, you can test it in the console by running
   - ```$ rails server``` and using the ```localhost:3000/users/new``` to create a new user
-  - and ```localhost:3000/users/user_id/edit``` to edit existing user (user_id is the number of the user, e.g. 1)
+* and try out the [new](http://localhost:3000/users/new) 
 
-### Built With
-This project was built using these technologies.
-* Ruby & Ruby on Rails
-* SQLite
-* Rubocop
-* Stickler
-* VsCode
+![screenshot](app/assets/images/re-former_new.png)
+
+* and [edit](http://localhost:3000/users/1/edit) (you have to create an user first to see this page)
+
+![screenshot](app/assets/images/re-former_edit.png)
+
+
+<!-- AUTOMATED TEST -->
+### Automated Test
+
+> There are no Automated Test for this project yet
 
 <!-- CONTACT -->
 ## Contributors
@@ -98,6 +111,16 @@ This project was built using these technologies.
 - LinkedIn: [Alexandru Bangau](https://www.linkedin.com/in/alexandru-bangau/)
 - GitHub: [@rammazzoti2000](https://github.com/rammazzoti2000)
 - E-mail: bangau.alexandru@gmail.com
+
+## :handshake: Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/vzdrizhni/re-former/issues).
+
+## Show your support
+
+Give a :star: if you like this project!
 
 
 <!-- ACKNOWLEDGEMENTS -->
